@@ -1,21 +1,21 @@
-É uma aplicação desenvolvida em Java com Spring Boot, criada como exemplo didático para realizar operações básicas de cadastro (CRUD) sobre um recurso de lâmpadas. A aplicação expõe endpoints REST para manipulação de dados, sendo útil para estudos ou como base para sistemas maiores.
+Lampada is a lightweight RESTful API built with Java and Spring Boot, created as a learning project to manage lamp records. It showcases basic CRUD functionality, making it a good starting point for anyone getting familiar with Spring Boot and RESTful API development.
 
-Funcionalidades
-💡 Cadastrar Lâmpada – cria um novo registro de lâmpada no banco de dados, informando dados como nome e status (ligada ou desligada).
+✅ Features
+Create Lamp – Add a new lamp with attributes like name and status (on/off).
 
-💡 Listar Lâmpadas – retorna todas as lâmpadas cadastradas no sistema.
+List Lamps – Retrieve all lamp records from the database.
 
-💡 Atualizar Lâmpada – permite alterar as informações de uma lâmpada existente.
+Update Lamp – Edit an existing lamp’s data.
 
-💡 Excluir Lâmpada – remove um registro de lâmpada do sistema.
+Delete Lamp – Remove a lamp entry from the system.
 
-Tecnologias Utilizadas
-Java 17 (ou versão que estiver utilizando)
+🛠️ Technologies Used
+Java 17 (or compatible version)
 
 Spring Boot
 
 Spring Data JPA
 
-Banco de Dados H2 (ou outro configurado)
+H2 Database
 
 Maven
